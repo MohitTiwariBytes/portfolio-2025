@@ -85,6 +85,16 @@ export default function FirstSection() {
             // }
         });
 
+        gsap.fromTo(".socials_desktop a", {
+            opacity: "0"
+        }, {
+            opacity: "1",
+            duration: 1,
+            ease: "ease",
+            delay: 3.5,
+            stagger: "0.09"
+        })
+
         gsap.fromTo(`.btn__first__section button`, {
             opacity: "0"
         },
@@ -145,6 +155,11 @@ export default function FirstSection() {
                                 <span>{word}</span>
                             </div>
                         ))}
+                    </div>
+                    <div className="socials_desktop">
+                        <a href="https://www.instagram.com/codedbymohit/">Instagram</a>
+                        <a href="https://www.linkedin.com/feed/">Linkedin</a>
+                        <a href="https://x.com/codedbymohit">X(Twitter)</a>
                     </div>
                 </div>
 
