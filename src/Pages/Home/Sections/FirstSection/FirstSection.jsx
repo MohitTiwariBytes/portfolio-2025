@@ -82,7 +82,7 @@ export default function FirstSection() {
             //             scrub: true
             //         }
             //     });
-            // }
+            // } 
         });
 
         gsap.fromTo(".socials_desktop a", {
