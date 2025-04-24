@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+
+  background-color: rgb(238, 238, 238);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+:root {
+  --white: #eeeeee;
+  --black: #1a1a1a;
+  --primaryFont: "Aeonik";
+  --secondaryFont: "Satoshi";
+  --smallFont: "General Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Overused Grotesk Light";
+  src: url("./Assets/Fonts/OverusedGrotesk/OverusedGrotesk-Light.ttf");
+}
+@font-face {
+  font-family: "Overused Grotesk Medium";
+  src: url("./Assets/Fonts/OverusedGrotesk/OverusedGrotesk-Medium.ttf");
+}
+
+@font-face {
+  font-family: "However";
+  src: url("./Assets/Fonts/However.ttf");
+
+  font-weight: 1 1000;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("./Assets/Fonts/Aeonik.otf");
+
+  font-weight: 1 1000;
+}
+@font-face {
+  font-family: "Monique";
+  src: url("./Assets/Fonts/monique.otf");
+
+  font-weight: 1 1000;
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("./Assets/Fonts/MonumentExtended-Regular.otf");
+
+  font-weight: 1 1000;
+}
+
+@font-face {
+  font-family: "Nohemi";
+  src: url("./Assets/Fonts/Nohemi-Regular.ttf");
+
+  font-weight: 1 1000;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./Assets/Fonts/Satoshi-Variable.ttf");
+  font-weight: 1 1000;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./Assets/Fonts/InterDisplay-Regular.ttf");
+  font-weight: 1 1000;
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url("./Assets/Fonts/Inter-Bold.ttf");
+  font-weight: 1 1000;
+}
+
+#bold {
+  font-family: "Inter Bold";
+}
+
+#italic {
+  font-style: italic;
+}

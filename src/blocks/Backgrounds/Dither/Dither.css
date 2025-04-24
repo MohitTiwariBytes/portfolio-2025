@@ -1,0 +1,9 @@
+/*
+	Installed from https://reactbits.dev/default/
+*/
+
+.dither-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
