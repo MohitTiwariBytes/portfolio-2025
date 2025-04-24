@@ -1,8 +1,27 @@
-# React + Vite
+# Mohit Tiwari's Portfolio - 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the source code for my personal portfolio site, built with modern web tools and libraries. It’s currently a **work in progress**, showcasing my projects, skills, and experiments with frontend tech.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React + Vite** – Fast and modern frontend development.
+- **GSAP** – Powerful animations for smooth, timeline-based transitions and effects.
+- **Lenis** – A smooth scroll library for silky user experiences.
+- **Plain CSS** – I don't really like using tailwind or whatever, i use plain CSS, it might be slow, but you have the **power**.
+
+## Features
+
+- Smooth scroll interactions
+- Scroll-triggered and entrance animations
+- Responsive layout, optimized for various devices
+- Moduler and component-based architecture
+
+## Installation
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
