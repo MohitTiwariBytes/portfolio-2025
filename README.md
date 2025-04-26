@@ -22,7 +22,7 @@ This is the source code for my personal portfolio site, built with modern web to
 To run this project locally:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/MohitTiwariBytes/portfolio-2025.git
 cd your-repo-name
 npm install
 npm run dev
