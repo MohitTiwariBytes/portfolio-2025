@@ -23,6 +23,6 @@ To run this project locally:
 
 ```bash
 git clone https://github.com/MohitTiwariBytes/portfolio-2025.git
-cd your-repo-name
+cd portfolio-2025
 npm install
 npm run dev
