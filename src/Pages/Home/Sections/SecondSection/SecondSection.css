@@ -1,0 +1,15 @@
+.main-second-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--white);
+  border-top: 1px solid black;
+}
+
+.secondSection {
+  width: 90%;
+  height: 100%;
+}

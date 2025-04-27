@@ -121,9 +121,9 @@ export default function Navbar() {
 
     const navItems = [
         { text: "H0me", url: "/", strikeThrough: false, unclickable: false },
-        { text: "Ab0ut", url: "/about", strikeThrough: true, unclickable: true },
-        { text: "W0rk", url: "/work", strikeThrough: true, unclickable: true },
-        { text: "C0ntact", url: "/contact", strikeThrough: true, unclickable: true }
+        { text: "Ab0ut", url: "/about", strikeThrough: false, unclickable: false },
+        { text: "W0rk", url: "/work", strikeThrough: false, unclickable: false },
+        { text: "C0ntact", url: "/contact", strikeThrough: false, unclickable: false }
     ];
 
 

@@ -69,20 +69,6 @@ export default function FirstSection() {
             stagger: 0.01,
             duration: 1.3,
             delay: 2.5,
-            // onComplete: () => {
-            //     gsap.fromTo(`.small__desc__text div span`, {
-            //         opacity: "1"
-            //     }, {
-            //         opacity: "0",
-            //         duration: 1,
-            //         stagger: 1,
-            //         scrollTrigger: {
-            //             trigger: ".main-first-section",
-            //             start: "top center-=500",
-            //             scrub: true
-            //         }
-            //     });
-            // } 
         });
 
         gsap.fromTo(".socials_desktop a", {
@@ -137,14 +123,14 @@ export default function FirstSection() {
                         ))}
                     </div>
 
-                    <div className="notice">
+                    {/* <div className="notice">
                         <div className="block"></div>
                         <div className="text__notice">
                             <span>FULL P0RTF0LI0 C0MING S00N</span>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="btn__first__section">
-                        <ButtonAnimated onClick={() => { window.location.href = "mailto:mohittiwariis97@gmail.com" }} secondaryText={"Let's go!"} color={"var(--white)"} textColor={"black"} borderRadius={"10px"} text={"Get in touch"} secondaryColor={"black"} secondaryTextColor={"white"}></ButtonAnimated>
+                        <ButtonAnimated onClick={() => { window.location.href = "mailto:mohittiwariis97@gmail.com" }} secondaryText={"Let's go!"} color={"transparent"} textColor={"black"} borderRadius={"10px"} text={"Get in touch"} secondaryColor={"black"} secondaryTextColor={"white"}></ButtonAnimated>
                     </div>
                 </div>
 
@@ -159,7 +145,7 @@ export default function FirstSection() {
                     <div className="socials_desktop">
                         <a href="https://www.instagram.com/codedbymohit/">Instagram</a>
                         <a href="https://www.linkedin.com/feed/">Linkedin</a>
-                        <a href="https://x.com/codedbymohit">X(Twitter)</a>
+                        <a href="https://x.com/codedbymohit">X (Twitter)</a>
                     </div>
                 </div>
 
