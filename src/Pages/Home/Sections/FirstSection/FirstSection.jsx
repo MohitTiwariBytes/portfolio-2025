@@ -64,6 +64,26 @@ export default function FirstSection() {
       }
     );
     gsap.fromTo(
+      `.projects span`,
+      { opacity: "0" },
+      {
+        opacity: "1",
+        ease: "ease",
+        stagger: 0.01,
+        delay: 2.2,
+      }
+    );
+    gsap.fromTo(
+      `.projects-group a`,
+      { opacity: "0" },
+      {
+        opacity: "1",
+        ease: "ease",
+        stagger: 0.1,
+        delay: 2.2,
+      }
+    );
+    gsap.fromTo(
       `.small__desc__text div span`,
       { top: "200%" },
       { top: "0", ease: "smoothEase", stagger: 0.01, duration: 1.3, delay: 2.5 }
